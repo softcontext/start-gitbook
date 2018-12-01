@@ -2,13 +2,22 @@
   "plugins": [
     "theme-api",
     "hide-published-with",
-    "multipart"
+    "multipart",
+    "collapsible-chapters",
+    "etoc"
   ],
   "pluginsConfig": {
     "theme-api": {
       "theme-api": {
         "theme": "dark"
       }
+    },
+    "collapsible-chapters": {},
+    "etoc": {
+      "h2lb": 3,
+      "mindepth": 3,
+      "maxdepth": 4,
+      "notoc": false
     }
   },
   "title": "Gitbook Tutorial",
